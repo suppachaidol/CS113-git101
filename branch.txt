@@ -1,0 +1,20 @@
+การสร้าง branch
+คำสั่งในการสร้าง branch ใหม่
+    git branch <branch-name>
+ิbranch ที่สร้างใหม่จะแยกกับ branch เดิมจะเป็นการแยกส่วนกับ branch master
+คำสั่งตรวจสอบ branch ว่ามี branch อะไรบ้าง
+    git branch
+ * จะอยู่หน้าชื่อ branch ที่กำลังเขียนอยู่
+ เปลี่ยน branch ด้วยคำสั่ง
+    git checkout <branch-name>
+การ merge branch
+เปลี่ยนไปที่ Branch ปลายทางก่อน
+รวม Branch คำสั่ง 
+    git merge <ชื่อ branch ที่จะให้ไปรวมกับปลายทาง>
+การ pull 
+clone git repository มาไว้อีกเครื่องหนึ่ง
+เพิ่มไฟล์ใน directory ใหม่แล้ว push
+กลับมาที่เครื่องเก่า หรือ directory เก่า แล้ว pull การเปลี่ยนแปลงลงมาที่ local repository
+
+
+
